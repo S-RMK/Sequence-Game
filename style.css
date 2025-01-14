@@ -68,3 +68,21 @@ main{
     animation-name: rotate;
     animation-duration: 1s;
 }
+@media (max-width:723px){
+    h1{
+        font-size: 75px;
+    }
+}
+@media(max-width:552px){
+    h1{
+        font-size: 60px;
+    }
+    .container{
+        height: 27em;
+        width: 400px;
+    }
+    .box{
+        height: 70px;
+        width: 67px;
+    }
+}
